@@ -1,0 +1,16 @@
+{
+    "name": "change-calculator",
+    "version": "0.2.0",
+    "scripts": {
+        "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+        "test": "mocha"
+    },
+    "devDependencies": {
+        "axios": "^0.16.2",
+        "chai": "^4.0.2",
+        "express": "^4.15.3",
+        "mocha": "^3.2.0",
+        "nightmare": "^2.10.0",
+        "node-static": "^0.7.9"
+    }
+}
